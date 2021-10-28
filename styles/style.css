@@ -48,34 +48,37 @@ a {
 .logo {
     display: inline-block;
 }
-.header_nav li {
-    list-style: none;
-}
 .main-header {
     height: 54px;
     width: 100%;
-    padding: 18px 48px;
+    padding: 15px 48px;
     position: absolute;
 }
 .logo {
     width: 120px;
     height: 30px;
+    padding-top: 3px;
 }
 
 .logo-svg {
     fill: white;
 }
 .header_nav {
-    width: 80%;
+    width: 64.5vw;
     float: right;
-    padding-left: 166px;
 }
 .header_nav_right {
   float: right;
 }
 .header_nav_item {
     float: left;
-    padding-right: 33px;
+    list-style: none;
+    padding: 4px 16px;
+    
+}
+.header_nav_item:hover {
+    background: #62666e;
+    border-radius: 5px;
 }
 .header_nav_item:last-child {
     padding-right: 0;
@@ -145,5 +148,24 @@ a {
     color: white;
     font-size: 12px;
 }
-
+.scrol {
+    box-sizing: border-box;
+    position: fixed;
+    top: 36vh;
+    margin-left: 14px;
+}
+.scrol-item {
+    width: 1px;
+    height: 24px;
+    background-color: white;
+    margin-bottom: 8px;
+    border: none;
+    opacity: 26%;
+}
+.scrol-item_active {
+    border: solid 1.5px white;
+    margin-left: -2px;
+    background: white;
+    opacity: 90%;
+}
 
