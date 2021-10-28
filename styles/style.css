@@ -47,7 +47,11 @@ a {
 }
 .logo {
     display: inline-block;
+    position: fixed;
 }
+
+
+
 .main-header {
     height: 54px;
     width: 100%;
@@ -59,7 +63,6 @@ a {
     height: 30px;
     padding-top: 3px;
 }
-
 .logo-svg {
     fill: white;
 }
@@ -73,16 +76,16 @@ a {
 .header_nav_item {
     float: left;
     list-style: none;
-    padding: 4px 16px;
-    
+    padding: 4px 16px; 
 }
 .header_nav_item:hover {
     background: #62666e;
-    border-radius: 5px;
+    border-radius: 10px;
 }
-.header_nav_item:last-child {
-    padding-right: 0;
-}
+
+/* first section */ 
+
+
 .first_section {
     height: 100vh;
     width: 100vw;
@@ -167,5 +170,54 @@ a {
     margin-left: -2px;
     background: white;
     opacity: 90%;
+}
+
+/* section safety */
+
+.safety {
+    height: 100vh;
+    width: 100vw;
+    float: left;
+}
+.safety-header {
+    font-size: 16px;
+    font-weight: 300;
+    color: #181b20;
+}
+.safety-title {
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 6px;
+    color: #181b20;
+}
+.safety-info {
+    padding: 50px 50px;
+    float: left;
+    width: 23vw;
+    height: 100vh;
+}
+.safety-description {
+    padding-top: 22px;
+    color: #393c41;
+}
+.safety-img {
+    float: right;
+    height: 100vh;
+    width: 77vw;
+    background: #f5f5f5;
+}
+.safety-img-align {
+    position: relative;
+    top: 5vh;
+}
+.safety_img_size {
+    max-width: 66vw;
+}
+.safety-star-tabl {
+    max-width: 320px;
+    margin-top: 15px;
+    padding: 25px 15px;
+    background-color: #e2e4e4;
+    border-radius: 15px;
 }
 
