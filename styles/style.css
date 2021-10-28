@@ -6,19 +6,19 @@
     
 }
 @font-face {
-    font-family: 'Gotham'; 
+    font-family: 'GothamSSm-Light'; 
     src: url(../font/GothamSSm-Light_Web.woff2);
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham'; 
+    font-family: 'GothamSSm-Bold'; 
     src: url(../font/GothamSSm-Bold_Web.woff2);
     font-weight: 600;
     font-style: bold;
 }
 @font-face {
-    font-family: 'Gotham'; 
+    font-family: 'GothamSSm-Book'; 
     src: url(../font/GothamSSm-Book_Web.woff2);
     font-weight: 400;
     font-style: normal;
@@ -197,7 +197,8 @@ a {
     height: 100vh;
 }
 .safety-description {
-    padding-top: 22px;
+    font-family: "GothamSSm-Light";
+    padding-top: 21px;
     color: #393c41;
 }
 .safety-img {
@@ -216,8 +217,96 @@ a {
 .safety-star-tabl {
     max-width: 320px;
     margin-top: 15px;
-    padding: 25px 15px;
+    padding: 25px 25px;
     background-color: #e2e4e4;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+.safety-star-tabl h3 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #181b20;
+}
+.star_info_text {
+    font-family: "GothamSSm-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    color: #393c41;
+}
+.star_info_additional {
+    font-family: "GothamSSm-Book";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 1;
+    color: #393c41;
+}
+.safety_star_item {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2px;
+}
+.safety_info {
+    float: left;
+}
+.stars {
+    float: right;
+    color: #393c41;
+    font-size: 16px;
+}
+.safety_footer {
+    position: relative;
+    bottom: -25vh;
+   
+}
+.safety_footer a {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+}
+
+.safety_footer .button_plus {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: solid 3px #181b20;
+    border-radius: 25px;
+    color: #181b20;
+    font-size: 30px;
+    line-height: 0.3;
+}
+.button_plus:hover {
+    color: white;
+    background: #181b20;
+}
+.safety_footer .info_item {
+    float: right;
+    margin-right: 14px;
+}
+
+.safety_footer button {
+    width: 140px;
+    height: 40px;
+    border: 3px solid #181b20;
+    background: none;
+    border-radius: 28px;
+    background: none;
+    padding: 10px;
+    color:  #181b20;
+    font-size: 12px;
+}
+.safety_footer span {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    color: #181b20;
+    font-size: 12px;
+}
+
+.safety_footer button:hover {
+    background-color: #181b20;
+    color: white;
 }
 
