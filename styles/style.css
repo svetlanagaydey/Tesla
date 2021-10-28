@@ -1,17 +1,35 @@
 @font-face {
-    /*
-    font-family: "MullerRegular";
-    src: url("//db.onlinewebfonts.com/t/a6c10f4967900a6f1d39f6996d20fec4.eot");
-    src: url("//db.onlinewebfonts.com/t/a6c10f4967900a6f1d39f6996d20fec4.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/a6c10f4967900a6f1d39f6996d0fec4.woff") format("woff");
-    */
     font-family: "Gotham";
-    src: url('../font/Gotham-Medium.woff2') format('woff2');
-    src: url('../font/Gotham-Medium.woff') format('woff');
-    font-weight: 400;
+    src: url(../font/GothamSSm-Medium_Web.woff2) format('woff2');
+    font-weight: 500;
     font-style: normal;
     
 }
+@font-face {
+    font-family: 'Gotham'; 
+    src: url(../font/GothamSSm-Light_Web.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham'; 
+    src: url(../font/GothamSSm-Bold_Web.woff2);
+    font-weight: 600;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Gotham'; 
+    src: url(../font/GothamSSm-Book_Web.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham'; 
+    src: url(../font/GothamSSm-XLight_Web.woff2);
+    font-weight: 200;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,56 +39,111 @@ html, body {
     font-family: 'Gotham', Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 21px;
+    font-style: normal;
 }
 a {
    text-decoration: none;
-}
-.main-header {
-    height: 54px;
-    padding: 15px 350px 0 15px;
+   color: white;
 }
 .logo {
-    color: white;
-    width: 120px;
-    height: 30px;
-}
-.main-header .logo {
-    float: left;
-}
-.header_nav {
-    float: right;
+    display: inline-block;
 }
 .header_nav li {
     list-style: none;
 }
-.header_nav_left {
-    float: left;
-    padding-right: 150px;
+.main-header {
+    height: 54px;
+    width: 100%;
+    padding: 18px 48px;
+    position: absolute;
 }
-.header_nav_right {
-    float: right;
+.logo {
+    width: 120px;
+    height: 30px;
 }
 
+.logo-svg {
+    fill: white;
+}
+.header_nav {
+    width: 80%;
+    float: right;
+    padding-left: 166px;
+}
+.header_nav_right {
+  float: right;
+}
 .header_nav_item {
     float: left;
-    padding-right: 28px;
+    padding-right: 33px;
 }
 .header_nav_item:last-child {
     padding-right: 0;
 }
-.header_nav li a{
-  
-
-}
 .first_section {
-    height: 800px;
+    height: 100vh;
+    width: 100vw;
     background-image: url(../images/M3-Hero-LHD-US-D.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.section_header {
-    font-size: 40px;
+.section_title{
+    color: white;
+    font-size: 39px;
+    font-weight: 500;
+    font-style: normal;
     line-height: 48px;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 140px;
 }
+.info {
+ 
+    padding-bottom: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    
+}
+
+.info_item {
+    width: 160px;
+    height: 66px;
+    padding: 0 20px;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    
+}
+.info_icon {
+    width: 40px;
+    height: 25px;
+    float: left;
+}
+.info_first_row {
+    font-size: 28px;
+    font-weight: 500;
+}
+.info_second_row {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+.info_first_row,
+.info_second_row {
+    color: white;
+}
+.info_item button {
+    width: 160px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 22px;
+    background: none;
+   
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+
