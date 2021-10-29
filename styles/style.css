@@ -409,6 +409,34 @@ a {
 }
 
 
+/* drive section*/
+
+.drive {
+    height: 100vh;
+    width: 100vw;
+}
+.drive .performance_main {
+    background-image: url(../images/lhd-awd-hero-desktop.jpeg);
+    background-size: cover;
+}
+.info_icon {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.info_item figure {
+    display:block;
+    clear:both;
+}
+.drive .info_second_row {
+    margin: 0;
+    padding: 0;
+}
+.drive .performance_footer_right {
+    margin-right: 11vw;
+}
+
+
 
 
 
