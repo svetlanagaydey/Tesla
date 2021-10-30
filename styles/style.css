@@ -44,6 +44,7 @@ html, body {
 a {
    text-decoration: none;
    color: white;
+   display: block;
 }
 .logo {
     display: inline-block;
